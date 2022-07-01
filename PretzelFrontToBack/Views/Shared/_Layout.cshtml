@@ -1,0 +1,171 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- === Google Font Link === -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- === Font Awesome Link === -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+          integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer" />
+    <!-- === Bootstrap 5 Link === -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous" />
+    <!-- === CSS Link === -->
+    <link rel="stylesheet" href="~/assets/css/index.css" />
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <!-- Start Navbar  -->
+        <div class="container">
+            <nav>
+                <div class="first-nav">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Pages</a></li>
+                        <li><a href="">Portfolio</a></li>
+                    </ul>
+                </div>
+                <div class="img-nav ">
+                    <a href="">
+                        <img src="~/assets/images/logo-centrered-light.png" alt="">
+                    </a>
+                </div>
+                <div class="second-nav">
+                    <ul>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Shop</a></li>
+                        <li><a href="">Elements</a></li>
+                    </ul>
+                </div>
+                <div class="menu-btn">
+                    <button type="button">
+                        Menu
+                    </button>
+                </div>
+            </nav>
+        </div>
+        <!-- End Navbar  -->
+    </header>
+    @RenderBody()
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <div class="footer-logo">
+                        <a href="">
+                            <img src="~/assets/images/logo-centrered-light.png" alt="">
+                        </a>
+                    </div>
+                    <div class="logo-text">
+
+                        <p>Sed ut perspiciatis unde omnis iste natus and error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis quasi</p>
+                    </div>
+                    <div class="social">
+                        <span>
+                            Follow us:
+                        </span>
+                        <a href="">
+
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="">
+
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="">
+
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="">
+
+                            <i class="fa-brands fa-pinterest"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="tweet-title">
+                        <span>
+                            LATEST TWEETS
+                        </span>
+                    </div>
+                    <div class="tweets">
+                        <div class="first-twit">
+                            <i class="fa-brands fa-twitter"></i>
+                            <p>
+                                RobWattCT Hey, please DM us so we can provide more details. Thanks!
+                                2 years ago
+                            </p>
+                        </div>
+                        <div class="second-twit">
+                            <i class="fa-brands fa-twitter"></i>
+                            <p>
+                                Here comes La Comète! ☄️ https://t.co/ApIk6kk3Tt This stellar #WordPress theme is made for any type of modern… https://t.co/h2ZWqjR78O
+                                3 years ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="instagram-title">
+                        <span>INSTAGRAM FEED</span>
+                    </div>
+                    <div class="instagram-image">
+                        <div class="row first-instagram-image">
+                            <div class="col-4">
+                                <img src="~/assets/images/121725752_732816960911203_1143421461631959502_n.jpg" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img src="~/assets/images/121806931_214671423334838_2021518401710234113_n.jpg" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img src="~/assets/images/121819492_127895318781890_7521021113032564136_n.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="row second-instagram-image">
+                            <div class="col-4">
+                                <img src="~/assets/images/121827967_2434236833552793_5124099969425743415_n.jpg" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img src="~/assets/images/122017192_371482340710360_7527726042269231024_n.jpg" alt="">
+                            </div>
+                            <div class="col-4">
+                                <img src="~/assets/images/122018279_190146446012573_3247609831027750194_n.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="join-title">
+                        <span>JOIN THE CLUB</span>
+                    </div>
+                    <div class="send-email">
+                        <form action="">
+                            <input type="email" placeholder="Email address">
+                            <button type="submit">Join</button>
+                        </form>
+                    </div>
+                    <div class="join-text">
+                        <p>Sign me up to receive emails on new product arrivals special offers.</p>
+                    </div>
+                    <div class="contact">
+                        <span class="contact-us">Contact us:</span>
+                        <span class="number"> 00 34 938 60 24 24</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

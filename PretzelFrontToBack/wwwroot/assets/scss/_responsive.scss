@@ -1,0 +1,475 @@
+@media only screen and(max-width: 992px){
+    .container{
+        width: 100%;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        .second-nav{
+            display: none;
+        }
+        .first-nav{
+            display: none;
+        }
+        .menu-btn{
+            display: block;
+            font-size: 90%;
+        }
+    }
+    #slider{
+        .carousel-indicators {
+            button {
+                padding: 4px 0;
+                width: 13px;
+            }
+          }
+          .carousel-item{
+            .text-img{
+                img{
+                    width: 60%;
+                }
+            }
+        }
+       
+    } 
+    #delicious{
+        .title{
+            h3{
+                font-size: 20px;
+            }
+        }
+        .sub-title{
+            p{
+                font-size: 15px;
+            }
+        }
+        .cards{
+            .card{
+                img{
+                    width: 60%;
+                }
+                p{
+                }
+            }
+        }
+    }
+    #statistic{
+        .title-statistic{
+            .first-text-statistic{
+                .first-statistic{
+                    width: 500px;
+                    height: 4px;
+                    
+                }
+                .first-marketing{
+                    span{
+                        font-size:20px;
+                    }
+                }
+                .photography{
+                    span{
+                        font-size:20px;
+                    }
+                }
+                .second-marketing{
+                    span{
+                        font-size:20px;
+                    }
+                }
+            }
+            .second-text-statistic{
+                span{
+                    font-size: 25px;
+                }
+                p{
+                    font-size: 15px;
+                }
+                button{
+                    font-size: 15px;
+                padding: 15px 30px;
+            }
+            }
+        }
+    }
+}
+
+@media only screen and(max-width: 992px){
+    .container{
+        width: 100%;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        .second-nav{
+            display: none;
+        }
+        .first-nav{
+            display: none;
+        }
+        .menu-btn{
+            display: block;
+            font-size: 80%;
+        }
+    }
+    #slider{
+        .carousel-indicators {
+            button {
+                padding: 3px 0;
+                width: 10px;
+            }
+          }
+          .carousel-item{
+            .text-img{
+                img{
+                    width: 50%;
+                }
+            }
+        }
+       
+    } 
+    #delicious{
+        .title{
+            h3{
+                font-size: 18px;
+            }
+        }
+        .sub-title{
+            p{
+                font-size: 13px;
+            }
+        }
+        .cards{
+            .card{
+                img{
+                    width: 50%;
+                }
+                p{
+                }
+            }
+        }
+    }
+    #statistic{
+        .title-statistic{
+            .first-text-statistic{
+                .first-statistic{
+                    width: 400px;
+                    height: 3px;
+                    
+                }
+                .first-marketing{
+                    span{
+                        font-size:16px;
+                    }
+                }
+                .photography{
+                    span{
+                        font-size:16px;
+                    }
+                }
+                .second-marketing{
+                    span{
+                        font-size:16px;
+                    }
+                }
+            }
+            .second-text-statistic{
+                span{
+                    font-size: 20px;
+                }
+                p{
+                    font-size: 10px;
+                }
+                button{
+                    font-size: 10px;
+                padding: 10px 25px;
+            }
+            }
+        }
+    }
+}
+@media only screen and(max-width: 768px){
+    .container{
+        width: 100%;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        .second-nav{
+            display: none;
+        }
+        .first-nav{
+            display: none;
+        }
+        .menu-btn{
+            display: block;
+            font-size: 70%;
+        }
+    }
+    #slider{
+        .carousel-indicators {
+            button {
+                padding: 2px 0;
+                width: 8px;
+            }
+          }
+          .carousel-item{
+            .text-img{
+                img{
+                    width: 40%;
+                }
+            }
+        }
+       
+    } 
+    #delicious{
+        .title{
+            h3{
+                font-size: 15px;
+            }
+        }
+        .sub-title{
+            p{
+                font-size: 10px;
+            }
+        }
+        .cards{
+            .card{
+                img{
+                    width: 40%;
+                }
+                p{
+                }
+            }
+        }
+    }
+    #statistic{
+        .title-statistic{
+            .first-text-statistic{
+                .first-statistic{
+                    width: 300px;
+                    height: 3px;
+                    
+                }
+                .first-marketing{
+                    span{
+                        font-size:13px;
+                    }
+                }
+                .photography{
+                    span{
+                        font-size:13px;
+                    }
+                }
+                .second-marketing{
+                    span{
+                        font-size:13px;
+                    }
+                }
+            }
+            .second-text-statistic{
+                span{
+                    font-size: 17px;
+                }
+                p{
+                    font-size: 8px;
+                }
+                button{
+                    font-size: 8px;
+                padding: 8px 20px;
+            }
+            }
+        }
+    }
+}
+    @media only screen and(max-width: 600px){
+        .container{
+            width: 100%;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            .second-nav{
+                display: none;
+            }
+            .first-nav{
+                display: none;
+            }
+            .menu-btn{
+                display: block;
+                font-size: 50%;
+            }
+        }
+        #slider{
+            .carousel-indicators {
+                button {
+                    padding: 1px 0;
+                    width: 6px;
+                }
+              }
+            .carousel-item{
+                .text-img{
+                    img{
+                        width: 30%;
+                    }
+                }
+            }
+           
+        } 
+        #delicious{
+            .title{
+                h3{
+                    font-size: 13px;
+                }
+            }
+            .sub-title{
+                p{
+                    font-size: 8px;
+                }
+            }
+            .cards{
+                .card{
+                    img{
+                        width: 30%;
+                    }
+                    p{
+                    }
+                }
+            }
+        }
+        #statistic{
+            .title-statistic{
+                .first-text-statistic{
+                    .first-statistic{
+                        width: 200px;
+                        height: 2px;
+                        
+                    }
+                    .first-marketing{
+                        span{
+                            font-size:11px;
+                        }
+                    }
+                    .photography{
+                        span{
+                            font-size:11px;
+                        }
+                    }
+                    .second-marketing{
+                        span{
+                            font-size:11px;
+                        }
+                    }
+                }
+                .second-text-statistic{
+                    span{
+                        font-size: 15px;
+                    }
+                    p{
+                        font-size: 6px;
+                    }
+                    button{
+                        font-size: 6px;
+                    padding: 6px 16px;
+                    }
+                }
+            }
+        }
+    }
+    @media only screen and(max-width: 300px){
+        .container{
+            width: 100%;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            .second-nav{
+                display: none;
+            }
+            .first-nav{
+                display: none;
+            }
+            .menu-btn{
+                display: block;
+                font-size: 40%;
+            }
+        }
+        #slider{
+            .carousel-indicators {
+                button {
+                    padding: 1px 0;
+                    width: 8px;
+                }
+              }
+            .carousel-item{
+                .text-img{
+                    img{
+                        width: 20%;
+                    }
+                }
+            }
+           
+        } 
+        #delicious{
+            .title{
+                h3{
+                    font-size: 10px;
+                }
+            }
+            .sub-title{
+                p{
+                    font-size: 8px;
+                }
+            }
+            .cards{
+                .card{
+                    img{
+                        width: 20%;
+                    }
+                    h5{
+                        font-size: 10px;
+                    }
+                    p{
+                        font-size: 8px;
+                    }
+                }
+            }
+        }
+        #statistic{
+            .title-statistic{
+                .first-text-statistic{
+                    .first-statistic{
+                        width: 60px;
+                        height: 2px;
+                        
+                    }
+                    .first-marketing{
+                        span{
+                            font-size:13px;
+                        }
+                    }
+                    .photography{
+                        span{
+                            font-size:10px;
+                        }
+                    }
+                    .second-marketing{
+                        span{
+                            font-size:10px;
+                        }
+                    }
+                }
+                .second-text-statistic{
+                    span{
+                        font-size: 12px;
+                    }
+                    p{
+                        font-size: 7px;
+                    }
+                    button{
+                        font-size: 7px;
+                    padding: 5px 13px;
+                    }
+                }
+            }
+        }
+    }

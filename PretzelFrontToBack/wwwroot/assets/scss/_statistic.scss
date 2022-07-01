@@ -1,0 +1,47 @@
+#statistic{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 50px;
+    .title-statistic{
+        background-image: url("../images/4kphoto3.jpg");
+       
+        padding: 100px 0;
+        .first-text-statistic{
+            position: relative;
+            color: white;
+            padding: 15px;
+            .first-statistic{
+                height: 6px;
+                width: 500px;
+                background-color: white;
+            }
+            
+            .photography{
+                margin-top: 30px;
+            }
+            .second-marketing{
+                margin-top: 30px;
+            }
+        }
+        .second-text-statistic{
+            color: white;
+            span{
+                font-size: 30px;
+            }
+            p{
+                font-size: 15px;
+            }
+            button{
+                text-transform: uppercase;
+                font-size: 13px;
+                font-weight: 500;
+                border: none;
+                padding: 16px 36px;
+                &:hover{
+                    background-color: darkorange;
+                    color: white;
+                    transition: 0.4s;
+                }
+            }
+        }
+    }
+}

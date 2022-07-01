@@ -1,0 +1,24 @@
+
+#slider {
+  .carousel-indicators {
+    button {
+      padding: 5px 0;
+      width: 15px;
+
+      border-radius: 100% !important;
+    }
+  }
+  .carousel-item {
+    position: relative;
+    text-align: center !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    .text-img {
+      position: absolute;
+      img {
+        width: 50%;
+      }
+    }
+  }
+}

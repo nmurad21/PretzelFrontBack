@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PretzelFrontToBack", "PretzelFrontToBack\PretzelFrontToBack.csproj", "{F9DC601B-E18F-4F0F-91A5-43DBFE1A43C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9DC601B-E18F-4F0F-91A5-43DBFE1A43C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9DC601B-E18F-4F0F-91A5-43DBFE1A43C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9DC601B-E18F-4F0F-91A5-43DBFE1A43C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9DC601B-E18F-4F0F-91A5-43DBFE1A43C5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {46BDAB80-14FB-441D-A13F-2D4DE92DF086}
+	EndGlobalSection
+EndGlobal

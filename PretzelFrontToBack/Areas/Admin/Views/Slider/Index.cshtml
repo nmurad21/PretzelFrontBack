@@ -1,0 +1,75 @@
+﻿@model IEnumerable<Slider>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+    int count = 0;
+}
+@if (Model == null)
+{
+    <div class="row">
+        <div class="col-lg-6 grid-margin stretch-card">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Slider Table</h4>
+                    <a class="btn btn-dribbble" asp-controller="Slider" asp-action="Create">Create</a>
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Count</th>
+                                    <th>Image</th>
+                                    <th>Settings</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+}
+else
+{
+    <div class="row">
+        <div class="col-lg-6 grid-margin stretch-card">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Slider Table</h4>
+                    <a class="btn btn-dribbble" asp-controller="Slider" asp-action="Create">Create</a>
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Count</th>
+                                    <th>Image</th>
+                                    <th>Settings</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    count++;
+                                    <tr>
+                                        <td>@count</td>
+                                        <td>
+                                            <img src="~/assets/images/@item.ImageUrl" />
+                                        </td>
+                                        <td>
+                                            <a class="btn btn-danger" asp-controller="Slider" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                                            <a class="btn btn-behance" asp-controller="Slider" asp-action="Update" asp-route-id="@item.Id">Update</a>
+                                            <a class="btn btn-secondary" asp-controller="Slider" asp-action="Detail" asp-route-id="@item.Id">Detail</a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+

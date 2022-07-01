@@ -1,0 +1,34 @@
+﻿@model RomanceCard
+@{
+    ViewData["Title"] = "Update";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container">
+    <div class="row">
+        <form class="forms-sample" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label asp-for="RomancePhoto"></label>
+                <input class="form-control" asp-for="RomancePhoto" accept="image/*">
+                <span asp-validation-for="RomancePhoto"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CardTitle"></label>
+                <input class="form-control" asp-for="CardTitle" >
+                <span asp-validation-for="CardTitle"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CardDesc"></label>
+                <input class="form-control" asp-for="CardDesc">
+                <span asp-validation-for="CardDesc"></span>
+            </div>
+            <button type="submit" class="btn btn-primary mr-2">Update</button>
+        </form>
+    </div>
+    <div class="row">
+
+        <a class="btn btn-dark" asp-controller="Romance" asp-action="Index">Back</a>
+    </div>
+</div>
+
+
